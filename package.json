@@ -10,12 +10,17 @@
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "express": "^4.14.0",
+    "fs": "0.0.2",
+    "path": "^0.12.7",
     "react": "^15.3.0",
     "react-bootstrap": "^0.30.3",
     "react-dom": "^15.3.0"
   },
   "devDependencies": {
     "css-loader": "^0.23.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.13.6",
     "source-map-loader": "^0.1.5",
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2"
