@@ -7,7 +7,7 @@ import { Main } from "./main";
 
 
 export interface naviB {}
-let correction = {marginBottom: 0}
+let correction = {marginBottom: 0, borderRadius: 0}
 export class NavbarB extends React.Component<naviB, {}> {
     render() {
         return <Navbar inverse fluid style={correction}>

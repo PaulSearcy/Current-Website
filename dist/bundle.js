@@ -101,7 +101,7 @@
 	};
 	var React = __webpack_require__(1);
 	var react_bootstrap_1 = __webpack_require__(5);
-	var correction = { marginBottom: 0 };
+	var correction = { marginBottom: 0, borderRadius: 0 };
 	var NavbarB = (function (_super) {
 	    __extends(NavbarB, _super);
 	    function NavbarB() {
@@ -19126,14 +19126,14 @@
 	};
 	var React = __webpack_require__(1);
 	var react_bootstrap_1 = __webpack_require__(5);
-	var backgroundImage = { backgroundImage: 'url(' + './src/images/noding.jpg' + ')', marginTop: -20 };
+	var backgroundImage = { backgroundImage: 'url(' + './src/images/noding.jpg' + ')', opacity: .8, marginTop: -20 };
 	var Main = (function (_super) {
 	    __extends(Main, _super);
 	    function Main() {
 	        _super.apply(this, arguments);
 	    }
 	    Main.prototype.render = function () {
-	        return React.createElement("div", null, " ", React.createElement(react_bootstrap_1.PageHeader, {className: "intro-header", style: backgroundImage}, React.createElement("div", {className: "container"}, React.createElement(react_bootstrap_1.Row, null, React.createElement("div", {className: "col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"}, React.createElement("div", {className: "site-heading"}, React.createElement("h1", null, "Advanced Exploration"), React.createElement("hr", {className: "small"}), React.createElement("span", {className: "subheading"}, "A site meant to explore the intersection of networking and application development")))))), React.createElement("div", {className: "container"}, React.createElement("h3", null, "What is Node.js? SASS? Handlebars? MonogDB? How do they relate and what is the purpose? "), React.createElement("p", null, "  That and many other questions I set out to solve awhile back. I created this website to portray some of the outcomes from that desire to grow and challenge myself as a developer. I hope you enjoy."), React.createElement("p", null, " Please click on projects if you would like to know the architecture of this site ")), React.createElement("hr", null));
+	        return React.createElement("div", null, React.createElement(react_bootstrap_1.PageHeader, {className: "intro-header", style: backgroundImage}, React.createElement("div", {className: "container"}, React.createElement(react_bootstrap_1.Row, null, React.createElement("div", {className: "col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"}, React.createElement("div", {className: "site-heading"}, React.createElement("h1", {style: { color: "#7AA3B8" }}, React.createElement("img", {src: "./src/images/nodeJSDark.png", className: "img-circle"}), " ", React.createElement("img", {src: "./src/images/128TypeScript.png", className: "img-circle"}), " ", React.createElement("img", {src: "./src/images/128React.png", className: "img-circle"})), React.createElement("hr", {className: "small"}), React.createElement("span", {className: "subheading"}, "Node.js + TypeScript + React")))))), React.createElement("div", {className: "container"}, React.createElement("h3", null, "What is Node.js? SASS? Handlebars? MonogDB? How do they relate and what is the purpose? "), React.createElement("p", null, "  That and many other questions I set out to solve awhile back. I created this website to portray some of the outcomes from that desire to grow and challenge myself as a developer. I hope you enjoy."), React.createElement("p", null, " Please click on projects if you would like to know the architecture of this site ")));
 	    };
 	    return Main;
 	}(React.Component));
