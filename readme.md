@@ -12,3 +12,22 @@ to create rudimentary replica of the current site feel.
 
 This readme is also rudimentary and will be updated as I absorb more knowledge
 relating to React and other modules.
+
+### Usage
+
+Development build with live-reload and hot module replacement:
+
+```bash
+npm run dev # Starts a server on port 7864 and live-reloads modules as you change files.
+```
+
+Production build with minified react and react-dom included in bundle:
+(With standalone react and react-dom, hot reloading wouldn't work in development, and the size of the page would be about 200KB larger.)
+
+```bash
+npm run build # Writes out compiled and minified source to dist/bundle.js
+```
+
+### Notes
+
+Live/Hot reloading can take quite a bit of time due to the slow TypeScript compiler.
