@@ -1,6 +1,6 @@
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import { PageHeader, Row, Col } from "react-bootstrap";
+import { PageHeader, Row, Col, Image } from "react-bootstrap";
 
 interface MyProps {}
 interface MyState {}
@@ -16,11 +16,11 @@ return <div>
                     <Col lg={8} lgOffset={2} md={10} mdOffset={1} >
                         <div className="site-heading">
                             <h1 style={{color: "#7AA3B8" }}>
-                                <img src= "./src/images/nodeJSDark.png" className= "img-circle" />
+                                <Image src= "./src/images/nodeJSDark.png" circle />
                                 &nbsp;
-                                <img src= "./src/images/128TypeScript.png" className= "img-circle" />
+                                <Image src= "./src/images/128TypeScript.png" circle />
                                 &nbsp;
-                                <img src= "./src/images/128React.png" className= "img-circle" />
+                                <Image src= "./src/images/128React.png" circle />
                             </h1>
                             <hr className="small" />
                             <span className="subheading">Node + TypeScript + React</span>
@@ -30,11 +30,12 @@ return <div>
             </div>
         </PageHeader>
 
-        <div className="container">
-            <h3>What is Node.js? SASS? Handlebars? MonogDB? How do they relate and what is the purpose? </h3>
-            <p>  That and many other questions I set out to solve awhile back. I created this website to portray some of the outcomes from that desire to grow and challenge myself as a developer. I hope you enjoy.</p>
-            <p> Please click on projects if you would like to know the architecture of this site </p>
+        <div className="container" style={{textAlign: "center"}}>
+            <h3>Basic Example </h3>
+            <p> I've put together this website to demonstrate using the above technologies.  </p>
+            <p> Currently this is the only page, working on linking up the other pages.</p>
         </div>
+        <hr />
 
       </div>
     }

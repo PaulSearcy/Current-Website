@@ -1,16 +1,26 @@
 import * as React from "react";
 
 import * as Bootstrap from "bootstrap";
+import { PageHeader, Row, Col } from "react-bootstrap";
 
-export interface footi { }
+interface MyProps {}
+interface MyState {}
 
-export class Footer extends React.Component<footi, {}> {
+export class Footer extends React.Component<MyProps, MyState> {
     render() {
         return <footer>
                 <div className="container">
-                    <div className="row">
-                        <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <Row >
+                        <Col lg={8} lgOffset={2} md={10} mdOffset={1}>
                             <ul className="list-inline text-center">
+                                <li>
+                                    <a href="https://www.linkedin.com/in/psearcy" target="_blank">
+                                        <span className="fa-stack fa-lg">
+                                            <i className="fa fa-circle fa-stack-2x"></i>
+                                            <i className="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                    </a>
+                                </li>
                                 <li>
                                     <a href="https://www.facebook.com/psearcy1" target="_blank">
                                         <span className="fa-stack fa-lg">
@@ -28,9 +38,9 @@ export class Footer extends React.Component<footi, {}> {
                                     </a>
                                 </li>
                             </ul>
-                            <p className="copyright text-muted">Copyright &copy; Website Circa 2016</p>
-                        </div>
-                    </div>
+                            <p className="copyright text-muted">Copyright &copy; Paul Searcy  2015-2016</p>
+                        </Col>
+                    </Row>
                 </div>
             </footer>
     }

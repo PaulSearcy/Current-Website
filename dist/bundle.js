@@ -76,13 +76,14 @@
 	var React = __webpack_require__(1);
 	var navbar_1 = __webpack_require__(4);
 	var main_1 = __webpack_require__(259);
+	var footer_1 = __webpack_require__(260);
 	var Page = (function (_super) {
 	    __extends(Page, _super);
 	    function Page() {
 	        _super.apply(this, arguments);
 	    }
 	    Page.prototype.render = function () {
-	        return React.createElement("div", null, React.createElement(navbar_1.NavbarB, null), React.createElement(main_1.Main, null));
+	        return React.createElement("div", null, React.createElement(navbar_1.NavbarB, null), React.createElement(main_1.Main, null), React.createElement(footer_1.Footer, null));
 	    };
 	    return Page;
 	}(React.Component));
@@ -19133,11 +19134,36 @@
 	        _super.apply(this, arguments);
 	    }
 	    Main.prototype.render = function () {
-	        return React.createElement("div", null, React.createElement(react_bootstrap_1.PageHeader, {className: "intro-header", style: backgroundImage}, React.createElement("div", {className: "container"}, React.createElement(react_bootstrap_1.Row, null, React.createElement("div", {className: "col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1"}, React.createElement("div", {className: "site-heading"}, React.createElement("h1", {style: { color: "#7AA3B8" }}, React.createElement("img", {src: "./src/images/nodeJSDark.png", className: "img-circle"}), " ", React.createElement("img", {src: "./src/images/128TypeScript.png", className: "img-circle"}), " ", React.createElement("img", {src: "./src/images/128React.png", className: "img-circle"})), React.createElement("hr", {className: "small"}), React.createElement("span", {className: "subheading"}, "Node.js + TypeScript + React")))))), React.createElement("div", {className: "container"}, React.createElement("h3", null, "What is Node.js? SASS? Handlebars? MonogDB? How do they relate and what is the purpose? "), React.createElement("p", null, "  That and many other questions I set out to solve awhile back. I created this website to portray some of the outcomes from that desire to grow and challenge myself as a developer. I hope you enjoy."), React.createElement("p", null, " Please click on projects if you would like to know the architecture of this site ")));
+	        return React.createElement("div", null, React.createElement(react_bootstrap_1.PageHeader, {className: "intro-header", style: backgroundImage}, React.createElement("div", {className: "container"}, React.createElement(react_bootstrap_1.Row, null, React.createElement(react_bootstrap_1.Col, {lg: 8, lgOffset: 2, md: 10, mdOffset: 1}, React.createElement("div", {className: "site-heading"}, React.createElement("h1", {style: { color: "#7AA3B8" }}, React.createElement(react_bootstrap_1.Image, {src: "./src/images/nodeJSDark.png", circle: true}), " ", React.createElement(react_bootstrap_1.Image, {src: "./src/images/128TypeScript.png", circle: true}), " ", React.createElement(react_bootstrap_1.Image, {src: "./src/images/128React.png", circle: true})), React.createElement("hr", {className: "small"}), React.createElement("span", {className: "subheading"}, "Node + TypeScript + React")))))), React.createElement("div", {className: "container", style: { textAlign: "center" }}, React.createElement("h3", null, "Basic Example "), React.createElement("p", null, " I've put together this website to demonstrate using the above technologies.  "), React.createElement("p", null, " Currently this is the only page, working on linking up the other pages.")), React.createElement("hr", null));
 	    };
 	    return Main;
 	}(React.Component));
 	exports.Main = Main;
+
+
+/***/ },
+/* 260 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+	var __extends = (this && this.__extends) || function (d, b) {
+	    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+	    function __() { this.constructor = d; }
+	    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+	};
+	var React = __webpack_require__(1);
+	var react_bootstrap_1 = __webpack_require__(5);
+	var Footer = (function (_super) {
+	    __extends(Footer, _super);
+	    function Footer() {
+	        _super.apply(this, arguments);
+	    }
+	    Footer.prototype.render = function () {
+	        return React.createElement("footer", null, React.createElement("div", {className: "container"}, React.createElement(react_bootstrap_1.Row, null, React.createElement(react_bootstrap_1.Col, {lg: 8, lgOffset: 2, md: 10, mdOffset: 1}, React.createElement("ul", {className: "list-inline text-center"}, React.createElement("li", null, React.createElement("a", {href: "https://www.linkedin.com/in/psearcy", target: "_blank"}, React.createElement("span", {className: "fa-stack fa-lg"}, React.createElement("i", {className: "fa fa-circle fa-stack-2x"}), React.createElement("i", {className: "fa fa-linkedin fa-stack-1x fa-inverse"})))), React.createElement("li", null, React.createElement("a", {href: "https://www.facebook.com/psearcy1", target: "_blank"}, React.createElement("span", {className: "fa-stack fa-lg"}, React.createElement("i", {className: "fa fa-circle fa-stack-2x"}), React.createElement("i", {className: "fa fa-facebook fa-stack-1x fa-inverse"})))), React.createElement("li", null, React.createElement("a", {href: "https://github.com/tridon777", target: "_blank"}, React.createElement("span", {className: "fa-stack fa-lg"}, React.createElement("i", {className: "fa fa-circle fa-stack-2x"}), React.createElement("i", {className: "fa fa-github fa-stack-1x fa-inverse"}))))), React.createElement("p", {className: "copyright text-muted"}, "Copyright © Paul Searcy  2015-2016")))));
+	    };
+	    return Footer;
+	}(React.Component));
+	exports.Footer = Footer;
 
 
 /***/ }
