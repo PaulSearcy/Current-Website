@@ -8,7 +8,8 @@
     "react": "registry:dt/react#0.14.0+20160805125551",
     "react-bootstrap": "registry:dt/react-bootstrap#0.0.0+20160806072414",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
-    "react-router": "registry:dt/react-router#2.0.0+20160813233016"
+    "react-router": "registry:dt/react-router#2.0.0+20160813233016",
+    "react-router-bootstrap": "registry:dt/react-router-bootstrap#0.0.0+20160316155526"
   },
   "dependencies": {
     "serve-static": "registry:npm/serve-static#1.11.1+20160810053450"

@@ -2,6 +2,8 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import * as Bootstrap from "bootstrap";
 import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from "react-bootstrap";
+import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router';
 import { Footer } from "./footer";
 import { Main } from "./main";
 
@@ -13,16 +15,24 @@ export class NavbarB extends React.Component<naviB, {}> {
         return <Navbar inverse fluid style={correction}>
     <Navbar.Header >
       <Navbar.Brand>
-        <a href="#">Paul Searcy</a>
+        <Link to="/">Paul Searcy</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
       <Nav pullRight>
-        <NavItem  href="#">Home</NavItem>
-        <NavItem  href="#">About</NavItem>
-        <NavItem  href="#">Projects</NavItem>
-        <NavItem  href="#">Contact</NavItem>
+        <LinkContainer to="/">
+          <NavItem >Home</NavItem>
+        </LinkContainer>
+        <LinkContainer to="/about">
+          <NavItem >About</NavItem>
+        </LinkContainer>
+        <LinkContainer to="/projects">
+          <NavItem >Projects</NavItem>
+        </LinkContainer>
+        <LinkContainer to="/contact">
+          <NavItem >Contact</NavItem>
+        </LinkContainer>
       </Nav>
     </Navbar.Collapse>
   </Navbar>
