@@ -9,7 +9,6 @@ let backgroundImage = {backgroundImage: 'url('+'./src/images/noding.jpg'+')',opa
 export class Main extends React.Component<MyProps, MyState> {
     render() {
 return <div>
-
         <PageHeader className="intro-header" style={backgroundImage}  >
             <div className="container">
                 <Row >
@@ -32,7 +31,7 @@ return <div>
 
         <div className="container" style={{textAlign: "center"}}>
             <h3>Basic Example </h3>
-            <p> I've put together this website to demonstrate using the above technologies.  </p>
+            <p> I've put together this website to demonstrate the above technologies. </p>
             <p> Currently this is the only page, working on linking up the other pages.</p>
         </div>
         <hr />
