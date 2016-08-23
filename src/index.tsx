@@ -5,8 +5,7 @@ import { Page } from "./components/page";
 
 
 ReactDOM.render(
-    <Page  />,
+    <Page />,
     document.getElementById("example")
 
 );
-
