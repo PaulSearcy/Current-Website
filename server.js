@@ -22,5 +22,5 @@ app.get('/', (req,res) => {
     res.sendFile('./index.html',options);
 })
 
-let port = 7864;
+let port = 3000;
 app.listen(port);
