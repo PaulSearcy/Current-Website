@@ -18,7 +18,7 @@ app.use('/stylesheets', serveStatic(path.join(__dirname, './stylesheets')));
 app.use('/node_modules', serveStatic(path.join(__dirname, './node_modules')));
 
 
-app.get('/', (req,res) => {
+app.get('*', (req,res) => {
     let options = { root: __dirname};
     res.sendFile('./index.html',options);
 })
