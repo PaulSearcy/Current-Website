@@ -20,6 +20,9 @@ export class NavbarB extends React.Component<naviB, {}> {
       <Navbar.Toggle />
     </Navbar.Header>
     <Navbar.Collapse>
+      <Nav pullLeft>
+        <NavItem href="http://www.psearcy.com/formProject">Form Builder Project</NavItem>
+      </Nav>
       <Nav pullRight>
         <LinkContainer to="/">
           <NavItem >Home</NavItem>
