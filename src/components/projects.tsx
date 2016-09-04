@@ -2,11 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { PageHeader, Row, Col, Image } from "react-bootstrap";
 
-interface MyProps {}
-interface MyState {}
 let backgroundImage = {backgroundImage: 'url('+'./src/images/bad-architecture.jpg'+')',opacity: .8, marginTop: -20};
 
-export class Projects extends React.Component<MyProps, MyState> {
+export class Projects extends React.Component<any, any> {
     render() {
 return <div>
         <PageHeader className="intro-header" style={backgroundImage}  >
@@ -26,6 +24,7 @@ return <div>
         <div className="container" style={{textAlign: "center"}}>
 
         </div>
+
         <hr />
 
       </div>

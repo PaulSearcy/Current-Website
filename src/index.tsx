@@ -34,4 +34,4 @@ render((
             <Route path="projects" components={{main: Projects}} />
         </Route>
     </Router>
-), document.getElementById("example") )
+), document.getElementById("react") )

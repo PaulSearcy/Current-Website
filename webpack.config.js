@@ -20,7 +20,7 @@ module.exports = {
     module: {
         loaders: [
             // All files with a ".ts" or ".tsx" extension will be handled by "ts-loader".
-            { test: /\.tsx?$/, loader: "react-hot!ts-loader" }
+            { test: /\.tsx?$/, loader: "ts-loader" }
         ],
 
         preLoaders: [
@@ -38,11 +38,11 @@ module.exports = {
     // assume a corresponding global variable exists and use that instead.
     // This is important because it allows us to avoid bundling all of our
     // dependencies, which allows browsers to cache those libraries between builds.
-    // INFO: Disabled for size and hot-reloading reasons.
-    /*
+
+
     externals: {
         "react": "React",
         "react-dom": "ReactDOM"
     },
-    */
+
 };

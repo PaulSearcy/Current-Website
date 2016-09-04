@@ -2,11 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { PageHeader, Row, Col, Image } from "react-bootstrap";
 
-interface MyProps {}
-interface MyState {}
 let backgroundImage = {backgroundImage: 'url('+'./src/images/contact-bg.jpg'+')',opacity: .8, marginTop: -20};
 
-export class Contact extends React.Component<MyProps, MyState> {
+export class Contact extends React.Component<any, any> {
     render() {
 return <div>
         <PageHeader className="intro-header" style={backgroundImage}  >
@@ -28,6 +26,7 @@ return <div>
         <div className="container" style={{textAlign: "center"}}>
             <p> For now psearcy2@gmail.com . </p>
         </div>
+
         <hr />
 
       </div>
