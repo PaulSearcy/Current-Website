@@ -6,23 +6,11 @@ I recently decided to take apart the [previous](https://github.com/tridon777/Old
 
 ##Rationale 
 
-Over the past year working with Node I've been continously working with new JS libraries on side projects that were very experimental in nature. In that time span I revisited the interesting concept of [Functional Programming](https://wiki.haskell.org/Functional_programming) that I had struggled conceptualizing in college. 
+Over the past year working with Node I've been continously working with new JS libraries on side projects that were very experimental in nature. In that time span experimenting I revisited the interesting concept of [Functional Programming](https://wiki.haskell.org/Functional_programming) that I had struggled conceptualizing in college. 
+
+After successfully implementing a variety of formulas functionally using a JS library [Ramda](http://ramdajs.com/0.22.1/index.html). I wanted a way to apply such reasoning to a real world example which lead me on to the front end framework [React](https://facebook.github.io/react/). 
+
+Cocurrently in my day job, during the majority of this period, I was writing in the strongly typed language C#. 
 
 
 
-### Usage
-
-Development build with live-reload and hot module replacement:
-
-npm run dev # Starts a server on port 7864 and live-reloads modules as you change files.
-
-Production build with minified react and react-dom included in bundle:
-(With standalone react and react-dom, hot reloading wouldn't work in development, and the size of the page would be about 200KB larger.)
-
-npm run build # Writes out compiled and minified source to dist/bundle.js
-
-### Notes
-
-Live/Hot reloading can take quite a bit of time due to the slow TypeScript compiler.
-
-This readme is also rudimentary and will be updated as I absorb more knowledge relating to React and other modules.
