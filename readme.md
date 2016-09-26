@@ -10,7 +10,7 @@ Over the past year working with Node I've been continously working with new JS l
 
 After successfully implementing a variety of formulas functionally using a JS library [Ramda](http://ramdajs.com/0.22.1/index.html). I wanted a way to apply such reasoning to a real world example which lead me on to the front end framework [React](https://facebook.github.io/react/). 
 
-Cocurrently in my day job, during the majority of this period, I was writing in the strongly typed language C#. 
+Cocurrently in my day job, during the majority of this period, I was writing in the strongly typed language C#. Working formally in a language know I got to see how having types provided a way of displaying information about what data your passing around and the ways it might be used. In general it made code that much easier to understand because from the types you could infer partially the inentions and assumptions from the previous iteration of development. 
 
 
 
