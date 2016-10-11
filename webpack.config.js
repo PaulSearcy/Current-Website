@@ -1,4 +1,4 @@
-const webpack = require("webpack");
+const webpack = require('webpack');
 
 module.exports = {
     entry: [
@@ -20,7 +20,7 @@ module.exports = {
     module: {
         loaders: [
             // All files with a ".ts" or ".tsx" extension will be handled by "ts-loader".
-            { test: /\.tsx?$/, loader: "react-hot!ts-loader" }
+            { test: /\.tsx?$/, loader: "ts-loader" }
         ],
 
         preLoaders: [
