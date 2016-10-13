@@ -8,11 +8,7 @@ import { Contact } from "./components/contact";
 import { Projects } from "./components/projects";
 import { Footer } from "./components/footer";
 
-
-
-
 class Page extends React.Component<any,void> {
-
     render() {
         const {main} = this.props;
         return (
