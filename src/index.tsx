@@ -5,7 +5,7 @@ import { NavbarB } from "./components/navbar";
 import { Main } from "./components/main";
 import { About } from "./components/about";
 import { Contact } from "./components/contact";
-import { Projects } from './components/projects';
+import { Projects } from "./components/projects";
 import { Footer } from "./components/footer";
 
 class Page extends React.Component<any,void> {
@@ -14,7 +14,7 @@ class Page extends React.Component<any,void> {
         return (
             <div>
                 <NavbarB />
-                this.props.chidlren;
+                {main}
                 <Footer />
             </div>
         );
@@ -24,10 +24,10 @@ class Page extends React.Component<any,void> {
 render((
     <Router history={browserHistory} >
         <Route path="/" component={Page}>
-            <IndexRoute component= "Main" />
-            <Route path="about" component= "About"/>
-            <Route path="contact" component= "Contact"/>
-            <Route path="projects" component= "Projects" />
+            <IndexRoute components={{main: Main}} />
+            <Route path="about" components={{main: About}} />
+            <Route path="contact" components={{main: Contact}} />
+            <Route path="projects" components={{main: Projects}} />
         </Route>
     </Router>
 ), document.getElementById("example") )
