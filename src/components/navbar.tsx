@@ -14,29 +14,42 @@ export class NavbarB extends React.Component<naviB, {}> {
 render() {
   return <Navbar inverse fluid style={correction}>
     <Navbar.Header >
+
       <Navbar.Brand>
         <Link to="/">Paul Searcy</Link>
       </Navbar.Brand>
       <Navbar.Toggle />
+
     </Navbar.Header>
+
     <Navbar.Collapse>
       <Nav pullLeft>
         <NavItem href="http://www.psearcy.com/formProject">Form Builder Project</NavItem>
       </Nav>
+
       <Nav pullRight>
         <LinkContainer to="/">
+
           <NavItem >Home</NavItem>
+
         </LinkContainer>
         <LinkContainer to="/about">
+
           <NavItem >About</NavItem>
+
         </LinkContainer>
         <LinkContainer to="/projects">
+
           <NavItem >Projects</NavItem>
+
         </LinkContainer>
         <LinkContainer to="/contact">
+
           <NavItem >Contact</NavItem>
+
         </LinkContainer>
       </Nav>
+
     </Navbar.Collapse>
   </Navbar>
     }

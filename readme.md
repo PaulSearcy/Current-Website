@@ -1,29 +1,22 @@
-Welcome to the React + Typescript rewrite of my website psearcy.com
+# PSEARCY.COM -- Website Rewrite and Current State
 
-The goal is to use Typescript as a way to quickly debug common runtime issues at compile time.
-Since I'm not an expert at JSX or React syntax, Typescript is a great way to catch a lot of the early mistakes I will be making.
+Welcome to the rewrite of my website psearcy.com
 
-Also, I really need to learn Typescript as I deal with types all the time in C# and this smooths over the differences in syntactic sugar between C# and JS.
+I recently decided to take apart the [previous](https://github.com/tridon777/Old-Website) version of my website and rewrite it using Typescript + React. 
 
-The plan is to use React, React-DOM, React-Bootstrap, React-Router, and inline CSS (JSX format)
-to create a rudimentary replica of the current site feel.
+##Rationale 
 
-This readme is also rudimentary and will be updated as I absorb more knowledge
-relating to React and other modules.
+Over the past year working with Node I've been continously working with new JS libraries on side projects that were very experimental in nature. In that time span experimenting I revisited the interesting concept of [Functional Programming](https://wiki.haskell.org/Functional_programming) that I had struggled conceptualizing in college. 
 
-### Usage
+After successfully implementing a variety of formulas functionally using a JS library [Ramda](http://ramdajs.com/0.22.1/index.html). I wanted a way to apply such reasoning to a real world example which lead me on to the front end framework [React](https://facebook.github.io/react/). (Which its syntax reminded me of how Swift was doing things with each view) 
 
-Development build with live-reload and hot module replacement:
+Cocurrently in my day job, during the majority of this period, I was writing in the strongly typed language C#. Working formally in a language know I got to see how having types provided a way of displaying information about what data your passing around and the ways it might be used. In general it made code that much easier to understand because from the types you could infer partially the inentions and assumptions from the previous iteration of development. 
 
-npm run dev # Starts a server on port 7864 and live-reloads modules as you change files.
+I wanted to bring all these pieces together into a cohesive project and see how it turned out. I think it turned out pretty well, now I just need to refactor! 
 
-Production build with minified react and react-dom included in bundle:
-(With standalone react and react-dom, hot reloading wouldn't work in development, and the size of the page would be about 200KB larger.)
+## Future Development
 
-npm run build # Writes out compiled and minified source to dist/bundle.js
+I play to rewrite this again, content staying the same, in Vue JS 2.0 to explore combining templating with reacts modularity and functional focus. Think Handlebars, plus React. 
 
-### Notes
 
-Live/Hot reloading can take quite a bit of time due to the slow TypeScript compiler.
 
-This readme is also rudimentary and will be updated as I absorb more knowledge relating to React and other modules.

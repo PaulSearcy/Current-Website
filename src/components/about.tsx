@@ -2,11 +2,9 @@ import * as React from "react";
 import * as ReactDOM from "react-dom";
 import { PageHeader, Row, Col, Image } from "react-bootstrap";
 
-interface MyProps {}
-interface MyState {}
 let backgroundImage = {backgroundImage: 'url('+'./src/images/coding.jpg'+')',opacity: .8, marginTop: -20};
 
-export class About extends React.Component<MyProps, MyState> {
+export class About extends React.Component<any, any> {
     render() {
 return <div>
         <PageHeader className="intro-header" style={backgroundImage}  >

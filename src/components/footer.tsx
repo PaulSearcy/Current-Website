@@ -3,12 +3,10 @@ import * as React from "react";
 import * as Bootstrap from "bootstrap";
 import { PageHeader, Row, Col } from "react-bootstrap";
 
-interface MyProps {}
-interface MyState {}
-
-export class Footer extends React.Component<MyProps, MyState> {
+export class Footer extends React.Component<any, any> {
     render() {
         return <footer>
+
                 <div className="container">
                     <Row >
                         <Col lg={8} lgOffset={2} md={10} mdOffset={1}>
@@ -42,6 +40,7 @@ export class Footer extends React.Component<MyProps, MyState> {
                         </Col>
                     </Row>
                 </div>
+
             </footer>
     }
 }
