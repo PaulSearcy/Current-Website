@@ -1,15 +1,10 @@
 import * as React from "react";
 
-import * as Bootstrap from "bootstrap";
-import { PageHeader, Row, Col } from "react-bootstrap";
-
-export class Footer extends React.Component<any, any> {
-    render() {
+export const Footer = () => {
         return <footer>
-
                 <div className="container">
-                    <Row >
-                        <Col lg={8} lgOffset={2} md={10} mdOffset={1}>
+                <div className="row">
+                    <div className="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                             <ul className="list-inline text-center">
                                 <li>
                                     <a href="https://www.linkedin.com/in/psearcy" target="_blank">
@@ -36,11 +31,9 @@ export class Footer extends React.Component<any, any> {
                                     </a>
                                 </li>
                             </ul>
-                            <p className="copyright text-muted">Copyright &copy; Paul Searcy  2015-2016</p>
-                        </Col>
-                    </Row>
+                            <p className="copyright text-muted">Copyright &copy; Paul Searcy  2015-2017</p>
+                        </div>
+                    </div>
                 </div>
-
             </footer>
-    }
 }
